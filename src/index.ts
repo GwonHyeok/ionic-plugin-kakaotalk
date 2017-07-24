@@ -12,7 +12,17 @@ import { Cordova, IonicNativePlugin, Plugin } from '@ionic-native/core';
 export class KakaoTalk extends IonicNativePlugin {
 
     @Cordova()
-    login(successCallback: Function, errorCallback: Function): void {
+    login(): Promise<any> {
+        return;
+    }
+
+    @Cordova()
+    logout(): Promise<any> {
+        return;
+    }
+
+    @Cordova()
+    share(options): Promise<any> {
         return;
     }
 

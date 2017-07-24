@@ -26,7 +26,13 @@ var KakaoTalk = (function (_super) {
     function KakaoTalk() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    KakaoTalk.prototype.login = function (successCallback, errorCallback) {
+    KakaoTalk.prototype.login = function () {
+        return;
+    };
+    KakaoTalk.prototype.logout = function () {
+        return;
+    };
+    KakaoTalk.prototype.share = function (options) {
         return;
     };
     return KakaoTalk;
@@ -34,9 +40,21 @@ var KakaoTalk = (function (_super) {
 __decorate([
     core_2.Cordova(),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Function, Function]),
-    __metadata("design:returntype", void 0)
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Object)
 ], KakaoTalk.prototype, "login", null);
+__decorate([
+    core_2.Cordova(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Object)
+], KakaoTalk.prototype, "logout", null);
+__decorate([
+    core_2.Cordova(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Object)
+], KakaoTalk.prototype, "share", null);
 KakaoTalk = __decorate([
     core_2.Plugin({
         pluginName: 'KakaoTalk',
