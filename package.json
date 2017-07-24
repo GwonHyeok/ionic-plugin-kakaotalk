@@ -1,0 +1,21 @@
+{
+  "name": "ionic-plugin-kakaotalk",
+  "version": "1.0.0",
+  "description": "Ionic2 카카오톡 플러그인",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ionic2",
+    "kakaotalk"
+  ],
+  "author": "GHyeok",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/core": "^4.3.1",
+    "@ionic-native/core": "^4.1.0",
+    "tsc": "^1.20150623.0"
+  }
+}
