@@ -32,6 +32,9 @@ var KakaoTalk = (function (_super) {
     KakaoTalk.prototype.logout = function () {
         return;
     };
+    KakaoTalk.prototype.getAccessToken = function () {
+        return;
+    };
     KakaoTalk.prototype.share = function (options) {
         return;
     };
@@ -49,6 +52,12 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Object)
 ], KakaoTalk.prototype, "logout", null);
+__decorate([
+    core_2.Cordova(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Object)
+], KakaoTalk.prototype, "getAccessToken", null);
 __decorate([
     core_2.Cordova(),
     __metadata("design:type", Function),

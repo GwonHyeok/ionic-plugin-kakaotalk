@@ -22,6 +22,11 @@ export class KakaoTalk extends IonicNativePlugin {
     }
 
     @Cordova()
+    getAccessToken(): Promise<string> {
+        return;
+    }
+
+    @Cordova()
     share(options): Promise<any> {
         return;
     }
